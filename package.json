@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kallaguntabalaji2941-dev.github.io/s9_CICE2",
+  "homepage": "https://github.com/kallaguntabalaji2941-dev/s9_CICD1.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
