@@ -4,14 +4,13 @@ import Temperature from "./components/Temperature"
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Master />} />
-          <Route path="/temperature" element={<Temperature />} />         
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter basename="/s9_CICD1">
+      <Routes>
+        <Route path="/" element={<Master />} />
+        <Route path="/temperature" element={<Temperature />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
+
 export default App
